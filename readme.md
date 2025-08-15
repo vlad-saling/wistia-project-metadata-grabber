@@ -27,7 +27,7 @@ This tool fetches metadata for Wistia projects using the Wistia API.
 3. **Run the tool:**
     `go run main.go`
 
-By default, the tool will fetch and print metadata for all projects to stdout.
+The tool will fetch metadata and print names for all projects to stdout.
 
 
 ## License
