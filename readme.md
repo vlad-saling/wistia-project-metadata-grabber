@@ -2,10 +2,11 @@
 
 This tool fetches metadata for Wistia projects using the Wistia API.
 
-## Features
+## How it works
 
-- Retrieve metadata for all projects in your Wistia account.
-- Save output to a file.
+- Retrieves metadata for all project ID listed in `input.txt`.
+- Filter out the name and pairs it with ID
+- Saves output to `output.csv`.
 
 ## Prerequisites
 
@@ -26,8 +27,6 @@ This tool fetches metadata for Wistia projects using the Wistia API.
 
 3. **Run the tool:**
     `go run main.go`
-
-The tool will fetch metadata and print names for all projects to stdout.
 
 
 ## License
